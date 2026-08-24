@@ -6,7 +6,7 @@ st.write("กรองข้อมูลน้ำหนักและส่ว�
 
 #ส่วนที่ 2 สร้างช่องรับค่าน้ำหนัก และ ส่วนสูง
 weight = st.numder_input("กรองน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, value=1.0)
-height_cm = st.numder_input("กรองส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0, value=1.0)
+height_cm = st.numder_input("กรองส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
 
 
 #ส่วนที่ 3 สร้างปุ่มกดคำนวณ
