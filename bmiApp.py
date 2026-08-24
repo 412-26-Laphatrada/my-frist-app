@@ -5,9 +5,8 @@ st.markdown(" :red[🏋️ คำนวณค่าดัชนีมวลก�
 st.write("กรองข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
 #ส่วนที่ 2 สร้างช่องรับค่าน้ำหนัก และ ส่วนสูง
-weight = st.numder_input("กรองน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, value=1.0, value=1.0)
-height_cm = st.numder_input("กรองส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0, value=1.0)
-
+weight = st.number_input("กรองน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, value=1.0)
+height_cm = st.number_input("กรองส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0, value=1.0)
 
 #ส่วนที่ 3 สร้างปุ่มกดคำนวณ
 if st.button("คำนวณค่า BMI 🎯"):
