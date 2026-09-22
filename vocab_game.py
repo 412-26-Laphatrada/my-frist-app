@@ -1,4 +1,3 @@
-```python
 import time
 import streamlit as st
 
@@ -147,4 +146,4 @@ if st.session_state.get("is_ended", False):
 
 st.divider()
 st.write("นางสาวลภัสรดา รุ่งกาลเศรณี เลขที่ 26 ม.4/12")
-```
+
